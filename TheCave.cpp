@@ -78,8 +78,8 @@ int TakeItem(unsigned int rooms[][4], int row, int column, string object);
 #define VIAL		0x00000080
 
 // Define Other Objects
-#define BAG			0x00000100
-#define HAT			0x00000200
+#define BAG		0x00000100
+#define HAT		0x00000200
 #define COAT		0x00000400
 #define BOOTS		0x00000800
 #define	RING		0x00001000
@@ -92,12 +92,12 @@ int TakeItem(unsigned int rooms[][4], int row, int column, string object);
 
 // Define Creatures
 #define	SPIDER		0x00080000
-#define BAT			0x00100000
+#define BAT		0x00100000
 #define SNAKE		0x00200000
 #define CREATURE	0x00400000
 #define BEAR		0x00800000
 #define FROG		0x01000000
-#define RAT			0x02000000
+#define RAT		0x02000000
 
 // Define Danger Levels
 #define HARMLESS	0x04000000
